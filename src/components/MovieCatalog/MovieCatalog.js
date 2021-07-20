@@ -28,7 +28,7 @@ function MovieCard(props) {
     <Link to={`/movie/${id}`}>
       <Card
         hoverable
-        style={{ width: 240 }}
+        style={{ width: 210 }}
         cover={<img alt={title} src={posterPath} />}
         actions={[<Icon type="eye" key="eye" />]}
       >
