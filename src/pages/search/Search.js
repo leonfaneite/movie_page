@@ -41,29 +41,23 @@ function Search(props){
 
 
       return (
-<Row>
-        <Col span={24} offset={6} className="search">
-            <h1>Busca tu Pelicula</h1>
-            <Input value={searchValue}  onChange={onChangeSearch}/>
-        </Col>
-
-        {movieList.results && (
-
+        <Row>
+            <Col span={12} offset={6} className="search">
+            <h1>Busca tu película</h1>
+            <Input value={searchValue} onChange={onChangeSearch} />
+          </Col>
+          {movieList.results && (
             <Row>
-                <Col span={24}>
-                    <MovieCatalog movies={movieList}/>
-                
-                </Col>
+              <Col span={24}>
+                <MovieCatalog movies={movieList} />
+              </Col>
             </Row>
-        )}
-
-        <Col span={24}>
-            <Footer/>
-        </Col>
-</Row>
-
-      )
-}
-
+          )}
+          <Col span={24}>
+            <Footer />
+          </Col>
+        </Row>
+      );
+    }
 
 export default withRouter(Search)
