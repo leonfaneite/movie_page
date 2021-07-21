@@ -9,7 +9,7 @@ import Home from "./pages/Home"
 import Error404 from "./pages/Error404"
 import Movie from "./pages/Movie"
 import New_movies from "./pages/New_movies"
-import Search from "./pages/Search"
+import Search from "./pages/search/Search"
 import Popular from "./pages/Popular"
 
 function App() {

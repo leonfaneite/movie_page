@@ -30,7 +30,7 @@ export default function Popular() {
     <Row>
       <Col span="24" style={{ textAlign: "center", marginTop: 25 }}>
         <h1 style={{ fontSize: 35, fontWeight: "bold" }}>
-          Mas populares
+          Ultimos lanzamientos
         </h1>
       </Col>
       {movieList.results ? (
